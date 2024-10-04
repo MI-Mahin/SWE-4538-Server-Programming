@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Mahin",
+    "email": "mahin@gmail.com",
+    "password": "$2b$10$pzlbMyRVd3lIdvBizsx0DOelw4JwFOdx6UPOxypbDKsgmJUVmh6xy",
+    "favoriteAnime": [
+      {
+        "name": "DBZ",
+        "description": "\"Dragon Ball Z\" follows the adventures of Goku who, along with the Z Warriors, defends the Earth against evil. The action adventures are entertaining and reinforce the concept of good versus evil. \"Dragon Ball Z\" teaches valuable character virtues such as teamwork, loyalty, and trustworthiness."
+      },
+      {
+        "name": "Pokemon",
+        "description": "Pokémon is a Japanese media franchise consisting of video games, animated series and films, a trading card game, and other related media. The franchise takes place in a shared universe in which humans co-exist with creatures known as Pokémon, a large variety of species endowed with special powers."
+      }
+    ]
+  },
+  {
+    "name": "Mahmud",
+    "email": "mahmud@gmail.com",
+    "password": "$2b$10$A4lte3RsO4tQB2ouFqjLHOr6Xa6BI86Pe0UcdNw5USLEAiFQu//Ku",
+    "favoriteAnime": [
+      {
+        "name": "Naruto",
+        "description": ""
+      }
+    ]
+  }
+]
