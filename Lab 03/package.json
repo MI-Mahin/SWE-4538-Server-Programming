@@ -1,0 +1,20 @@
+{
+  "name": "lab-03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.0",
+    "node": "^20.18.0"
+  },
+  "keywords": [],
+  "description": ""
+}
