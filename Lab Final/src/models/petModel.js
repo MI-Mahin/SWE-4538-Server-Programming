@@ -5,7 +5,7 @@ const PetSchema = new mongoose.Schema({
   species: { type: String, required: true },
   age: { type: Number, required: true },
   description: { type: String },
-  image: { type: String }, // Store image filename
+  image: { type: String }, 
   isAdopted: { type: Boolean, default: false },
 });
 
