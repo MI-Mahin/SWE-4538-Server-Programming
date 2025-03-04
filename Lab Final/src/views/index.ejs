@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pet Adoption Hub</title>
+</head>
+<body>
+    <h1>Pet Adoption Hub</h1>
+    <a href="/add">Add New Pet</a>
+    <ul>
+        <% pets.forEach(pet => { %>
+            <li>
+                <img src="/uploads/<%= pet.image %>" width="100">
+                <p><strong>Name:</strong> <%= pet.name %></p>
+                <p><strong>Species:</strong> <%= pet.species %></p>
+                <p><strong>Age:</strong> <%= pet.age %> years</p>
+                <p><strong>Status:</strong> <%= pet.isAdopted ? "Adopted" : "Available" %></p>
+                <% if (!pet.isAdopted) { %>
+                    <form action="/adopt/<%= pet._id %>" method="POST">
+                        <button type="submit">Mark as Adopted</button>
+                    </form>
+                <% } %>
+                <form action="/delete/<%= pet._id %>" method="POST">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

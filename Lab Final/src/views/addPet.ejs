@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Pet</title>
+</head>
+<body>
+    <h1>Add a New Pet</h1>
+    <form action="/add" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="species" placeholder="Species" required>
+        <input type="number" name="age" placeholder="Age" required>
+        <textarea name="description" placeholder="Description"></textarea>
+        <input type="file" name="image">
+        <button type="submit">Add Pet</button>
+    </form>
+</body>
+</html>
